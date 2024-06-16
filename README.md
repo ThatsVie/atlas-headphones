@@ -13,15 +13,25 @@ Hero Section: Contains a headline, subheadline, call-to-action button, and a des
 
 **CSS**
 
-Variables: Define colors, font sizes, and other reusable values.
+Variables that define colors, font sizes, and other reusable values.
 
-Base Styles: Set up universal box-sizing, font family, and link styles.
+Base styles set up universal box-sizing, font family, and link styles.
 
-Header Styles: Style the header, logo, and navigation links for different screen sizes.
+Style the header, logo, and navigation links for different screen sizes.
 
-Hero Section Styles: Style the hero section with background image, text alignment, and spacing.
+Style the hero section with background image, text alignment, and spacing.
 
-Responsive Design: Ensure the layout adapts to desktop, tablet, and mobile views
+Responsive Design to ensure the layout adapts to desktop, tablet, and mobile views
+
+### Task 2: Create the "What We Do" Section
+
+In this task, we created the "What We do..." section, which highlights key features using custom font icons.
+
+**HTML**
+We structured the HTML to include a heading, a description, and four feature blocks. Each feature block contains a custom font icon, a heading, and a description.
+
+**CSS**
+We updated the CSS to style the "What We do..." section, ensuring it is responsive across desktop, tablet, and mobile devices. The CSS includes styles for the section container, text blocks, and feature blocks, as well as media queries for responsiveness.
 
 ## Usage
 Open the `index.html` file in your web browser to view the website.
