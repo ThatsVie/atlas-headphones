@@ -4,11 +4,12 @@
   --color-red: #FF6565;
   --font-family: "Source Sans Pro", sans-serif;
 
-  --font-size-xsmall: 12px;
-  --font-size-small: 14px;
-  --font-size-standard: 16px;
-  --font-size-medium: 32px;
-  --font-size-large: 46px;
+  --font-size-xsmall: 0.75rem; /* 12px */
+  --font-size-small: 0.875rem; /* 14px */
+  --font-size-standard: 1rem; /* 16px */
+  --font-size-medium: 2rem; /* 32px */
+  --font-size-large: 2.875rem; /* 46px */
+  --font-size-icon: 6rem; /*  icon/glyph/font size */
 
   --button-hover-opacity: 0.9;
   --font-weight-bold: 700;
@@ -67,7 +68,13 @@ header {
   z-index: 2;
 }
 
-/* Hidden checkbox for navigation toggle */
+/* Logo styling */
+.logo {
+  width: 161px;
+  height: 32px;
+}
+
+/* Hidden checkbox for navigation toggle on mobile */
 .nav-toggle-checkbox {
   height: 0px;
 }
@@ -80,11 +87,6 @@ header {
   justify-content: space-between;
 }
 
-/* Logo styling */
-.logo {
-  width: 161px;
-  height: 32px;
-}
 
 /* Navigation styling within the header */
 .header-content nav {
@@ -134,7 +136,7 @@ nav a {
     transform: translate(-50%, -50%);
   }
 
-  /* Hamburger Menu */
+  /* Hamburger Menu Hidden checkbox for toggling navigation in mobile version */
   .nav-toggle-checkbox {
     top: 20px;
     left: 20px;
@@ -144,9 +146,10 @@ nav a {
     cursor: pointer;
     position: absolute;
     display: block;
-    z-index: 5;
+    z-index: 5; /* Ensure it is above other elements */
   }
-
+  
+  /* Hamburger Menu Button styling */
   .nav-toggle-button {
     display: flex;
     top: 20px;
@@ -159,6 +162,7 @@ nav a {
     z-index: 2;
   }
 
+  /* Hamburger Menu: Line styling */
   .nav-toggle-button .nav-line {
     display: block;
     height: 2.2px;
@@ -167,21 +171,25 @@ nav a {
     background: var(--color-white);
   }
 
+  /* Transition for the first line of the hamburger button */
   .nav-toggle-button .nav-line1 {
     transform-origin: 0% 0%;
     transition: transform 0.4s ease-in-out;
   }
 
+  /* Transition for the second line of the hamburger button */
   .nav-toggle-button .nav-line2 {
     width: 18px;
     transition: transform 0.2s ease-in-out;
   }
 
+  /* Transition for the third line of the hamburger button */
   .nav-toggle-button .nav-line3 {
     transform-origin: 0% 100%;
     transition: transform 0.4s ease-in-out;
   }
 
+  /* Transformations for the hamburger button lines when the checkbox is checked to turn into x */
   input[type="checkbox"]:checked ~ .nav-toggle-button .nav-line1 {
     transform: rotate(45deg);
   }
@@ -194,6 +202,7 @@ nav a {
     transform: rotate(-45deg);
   }
 
+  /* Hidden navigation menu by default */
   .header-content nav {
     opacity: 0;
     height: 0;
@@ -204,6 +213,7 @@ nav a {
     transition: opacity 0.75s ease-in-out, height 0.4s ease;
   }
 
+  /* Show navigation menu when the checkbox is checked */
   input[type="checkbox"]:checked ~ .header-content nav {
     height: auto;
     visibility: visible;
@@ -211,6 +221,7 @@ nav a {
     transform: scale(1);
   }
 
+  /* Hidden navigation links by default */
   .header-content nav a {
     visibility: hidden;
     display: block;
@@ -218,12 +229,14 @@ nav a {
     transition: transform 0.5s ease-in-out;
   }
 
+  /* Show navigation links when the checkbox is checked */
   input[type="checkbox"]:checked ~ .header-content nav a {
     visibility: visible;
     transform: scale(1);
     transition: transform 0.5s ease-out;
   }
 
+  /* Header content adjustments for mobile */
   .header-content {
     width: 75%;
     height: 70%;
@@ -231,21 +244,25 @@ nav a {
     display: block;
   }
 
+  /* Logo adjustments for mobile */
   .header-content img {
     margin-top: 8%;
   }
 
+  /* Navigation link adjustments for mobile */
   .header-content nav a {
     margin-top: 25%;
     padding-left: 17%;
   }
 
+  /* Navigation adjustments for mobile */
   nav {
     flex-direction: column;
     align-items: center;
     margin: auto;
   }
 
+  /* Adjust the position of the hamburger button */
   .nav-toggle-button {
     left: 25px;
     top: 52px;
@@ -314,3 +331,75 @@ nav a {
   }
 }
 
+
+/* What We Do... Section */
+
+.what-we-do {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  min-height: 75vh;
+}
+
+/* Title and description for the What We Do... section */
+.what-we-do-text h2 {
+  font-size: var(--font-size-large);
+}
+
+.what-we-do-text p {
+  margin-top: 40px;
+  line-height: var(--line-height-bold);
+  font-size: var(--font-size-standard);
+}
+
+/* Container for the feature glyph blocks */
+.features-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+/* Individual glyph block styling */
+.feature-block {
+  flex: 1 1 calc(25% - 50px);
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  line-height: var(--line-height-bold);
+}
+
+
+/* glyph styling */
+.icon {
+  font-size: var(--font-size-icon);
+  color: var(--color-red);
+}
+
+/* Media Queries for the What We Do... section */
+
+/* Tablet devices (screen width less than 768px and greater than 480px) */
+@media screen and (max-width: 767px) and (min-width: 481px) {
+  .what-we-do-text {
+    width: 100%;
+  }
+
+  .feature-block {
+    flex-basis: calc(50% - 50px);
+  }
+}
+
+/* Mobile devices (screen width 480px or less) */
+@media screen and (max-width: 480px) {
+  .feature-block {
+    flex-basis: calc(100% - 20px);
+  }
+
+  .features-container {
+    justify-content: center;
+  }
+}
