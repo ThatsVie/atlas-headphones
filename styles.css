@@ -178,6 +178,22 @@ nav a {
   justify-content: center;
 }
 
+/*Footer Styling*/
+.footer {
+  background: #071629;
+  width: 1400px;
+  height: 249px;
+  flex-shrink: 0;
+}
+
+.footer .logo {
+  margin: 80px;
+  margin-left: 120px;
+  width: 161px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
 /* Media Queries for responsive design */
 
 /* Desktop devices (screen width 768px or more) */
