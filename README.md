@@ -28,10 +28,23 @@ Responsive Design to ensure the layout adapts to desktop, tablet, and mobile vie
 In this task, we created the "What We do..." section, which highlights key features using custom font icons.
 
 **HTML**
+
 We structured the HTML to include a heading, a description, and four feature blocks. Each feature block contains a custom font icon, a heading, and a description.
 
 **CSS**
+
 We updated the CSS to style the "What We do..." section, ensuring it is responsive across desktop, tablet, and mobile devices. The CSS includes styles for the section container, text blocks, and feature blocks, as well as media queries for responsiveness.
+
+### Task 3: "Our Results" Section
+For this task, we created the "Our Results" section. The section showcases a background image and pentagon-shaped highlights for the metrics.
+
+**HTML Updates**
+
+The HTML structure for the "Our Results" section includes a container for the section's text and a container for the result blocks. Each result block is styled to maintain a consistent pentagon shape across various screen sizes.
+
+**CSS Updates**
+
+The CSS for the "Our Results" section ensures that the pentagon shapes maintain their form across different screen sizes. This is achieved using a combination of flexbox for layout and careful dimensioning of the result blocks.
 
 ## Usage
 Open the `index.html` file in your web browser to view the website.
