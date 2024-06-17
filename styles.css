@@ -106,11 +106,14 @@ nav a {
 .contact-us {
   display: flex;
   justify-content: center;
-  outline: none;
+  align-items: center;
 }
 
+/*contact us title*/
 .contact-us span {
   color: #071629;
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-family: SourceSansPro;
   font-size: 32px;
@@ -119,7 +122,11 @@ nav a {
   line-height: normal;
 }
 
+/*contact us form labels*/
 .contact-us label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   color: #071629;
   font-family: SourceSansPro;
   font-size: 14px;
@@ -128,13 +135,20 @@ nav a {
   line-height: normal;
 }
 
-.contact-us .form-field {
+.contact-us input {
   display: flex;
   width: 335px;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
+  outline: none;
+}
+
+.contact-us button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Media Queries for responsive design */
