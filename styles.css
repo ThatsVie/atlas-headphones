@@ -102,11 +102,21 @@ nav a {
   font-weight: var(--font-weight-bold);
 }
 
-/*Contact Us Styling*/
+/*Contact Us Section Styling*/
 .contact-us {
-  width: 335px;
-  height: 373px;
-  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  outline: none;
+}
+
+.contact-us span {
+  color: #071629;
+  text-align: center;
+  font-family: SourceSansPro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .contact-us label {
