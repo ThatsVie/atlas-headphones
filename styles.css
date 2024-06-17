@@ -180,17 +180,26 @@ nav a {
 
 /*Footer Styling*/
 .footer {
+  display: flex;
   background: #071629;
-  width: 1400px;
-  height: 249px;
-  flex-shrink: 0;
+}
+
+.footer nav {
+  margin: 80px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
 
 .footer .logo {
-  margin: 80px;
-  margin-left: 120px;
   width: 161px;
   height: 32px;
+  flex-shrink: 0;
+}
+
+.footer .social_icons {
+  width: 130px;
+  height: 30px;
   flex-shrink: 0;
 }
 
