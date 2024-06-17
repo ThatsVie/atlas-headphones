@@ -102,125 +102,6 @@ nav a {
   font-weight: var(--font-weight-bold);
 }
 
-/*---Contact Us Section Styling---*/
-.contact-us {
-  padding: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/*contact us title*/
-.contact-us span {
-  padding: 20px;
-  color: #071629;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-family: SourceSansPro;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-/*Contact us form*/
-.contact-us fieldset {
-  border: none;
-}
-
-/*contact us form labels*/
-.contact-us label {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  color: #071629;
-  font-family: SourceSansPro;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-/*contact us input boxes*/
-.contact-us input {
-  padding: 20px;
-  display: flex;
-  width: 335px;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-color: grey;
-}
-
-/*contact us placeholder text in input boxes*/
-.contact-us input::placeholder {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  color: #071629;
-  font-family: SourceSansPro;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-/*contact us button*/
-.contact-us .button {
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/*---Footer Styling---*/
-.footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px; 
-  background: #071629;
-}
-
-/*Footer nav*/
-.footer nav {
-  margin: 80px;
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-}
-
-/*Company logo in footer*/
-.footer .logo {
-  width: 161px;
-  height: 32px;
-  flex-shrink: 0;
-}
-
-/*Social media icons in footer*/
-.footer .social_icons {
-  width: 130px;
-  height: 30px;
-  flex-shrink: 0;
-}
-
-/*Copyright text in footer*/
-.footer .copyright {
-  margin-top: 10px;
-  text-align: center;
-  color: #FFF;
-  font-family: "Source Sans Pro";
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  opacity: 0.3517;
-}
-
 /* Media Queries for responsive design */
 
 /* Desktop devices (screen width 768px or more) */
@@ -624,3 +505,153 @@ nav a {
   }
 }
 
+/*---Contact Us Section Styling---*/
+.contact-us {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*contact us title*/
+.contact-us span {
+  padding: 20px;
+  color: #071629;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: var(--font-family);;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/*Contact us form*/
+.contact-us fieldset {
+  border: none;
+}
+
+/*contact us form labels*/
+.contact-us label {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #071629;
+  font-family: var(--font-family);;
+  font-size: var(--font-size-small);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/*contact us input boxes*/
+.contact-us input {
+  padding: 20px;
+  display: flex;
+  width: 335px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: grey;
+}
+
+/*contact us placeholder text in input boxes*/
+.contact-us input::placeholder {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #071629;
+  font-family: var(--font-family);
+  font-size: var(--font-size-small);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/*contact us button*/
+.contact-us .button {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Footer Section */
+
+/* Container for the footer section */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px; 
+  background: #071629;
+}
+
+/* Container for the footer content */
+.footer-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Content within the footer (logo and social icons) */
+.footer-content {
+  margin: 80px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+/* Logo styling in the footer */
+.footer-logo img {
+  width: 161px;
+  height: 32px;
+  flex-shrink: 0;
+}
+
+/* Social icons container */
+.footer-social-icons {
+  display: flex;
+  gap: 20px;
+
+}
+
+/* Social icon styles */
+.social-icon {
+  font-size: 25px;
+  color: var(--color-white);
+}
+
+/* Hover state for social icons */
+.social-icon:hover {
+  opacity: var(--button-hover-opacity);
+}
+
+/* Footer text styling */
+footer p {
+  color: var(--color-white);
+  opacity: 0.9;
+  font-family: var(--font-family);
+  font-size: var(--font-size-xsmall);
+  text-align: center;
+}
+
+/* Media Queries for responsiveness */
+
+/* Tablet and mobile devices (screen width less than 768px) */
+@media screen and (max-width: 768px) {
+
+}
+
+/* Mobile devices (screen width 480px or less) */
+@media screen and (max-width: 480px) {
+ 
+}
