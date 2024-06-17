@@ -184,6 +184,7 @@ nav a {
   background: #071629;
 }
 
+/*Footer nav*/
 .footer nav {
   margin: 80px;
   display: flex;
@@ -191,12 +192,14 @@ nav a {
   justify-content: space-around;
 }
 
+/*Company logo in footer*/
 .footer .logo {
   width: 161px;
   height: 32px;
   flex-shrink: 0;
 }
 
+/*Social media icons in footer*/
 .footer .social_icons {
   width: 130px;
   height: 30px;
