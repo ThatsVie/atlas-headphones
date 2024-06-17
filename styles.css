@@ -345,6 +345,15 @@ nav a {
 }
 
 /* Title and description for the What We Do... section */
+
+.what-we-do-text {
+  margin-top: 0px;
+  width: 50%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
 .what-we-do-text h2 {
   font-size: var(--font-size-large);
 }
@@ -362,6 +371,8 @@ nav a {
   justify-content: space-between;
   align-items: center;
   width: 80%;
+  height: 45%;
+  font-size: var(--font-size-small);
 }
 
 /* Individual glyph block styling */
@@ -403,3 +414,94 @@ nav a {
     justify-content: center;
   }
 }
+
+/* Our Results Section */
+.our-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  min-height: 75vh;
+  padding: 30px;
+  background: url(images/headphones_hero_2.jpg) center center/cover no-repeat;
+  color: var(--color-white);
+}
+
+/* Text block for the "Our Results" section */
+.results-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+.results-text h2 {
+  /* Font size for the section title */
+  font-size: var(--font-size-medium);
+}
+
+.results-text p {
+  /* Line height and margin for the paragraph */
+  line-height: var(--line-height-bold);
+  font-size: var(--font-size-standard);
+  margin-top: 40px;
+}
+
+/* Container for the result blocks */
+.results-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
+
+/* Individual result block styling */
+.result-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: var(--line-height-bold);
+  max-width: 190px;
+  background-image: url(images/pentagon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 190px;
+  width: 190px;
+}
+
+.result-block h3 {
+  font-size: var(--font-size-large);
+  margin: 10px 0;
+}
+
+.result-block p {
+  margin: 0;
+  font-size: var(--font-size-small);
+}
+
+/* Media Queries for responsiveness */
+
+/* Tablet devices (screen width less than 768px and greater than 480px) */
+@media screen and (max-width: 768px) {
+  .our-results .results-text {
+    width: 80%;
+  }
+  .result-block {
+    flex-basis: calc(50% - 50px); /* Adjust block width */
+  }
+}
+
+/* Mobile devices (screen width 480px or less) */
+@media screen and (max-width: 480px) {
+  .result-block {
+    flex-basis: calc(100% - 20px); 
+  }
+  .results-container {
+    justify-content: center;
+  }
+}
+
