@@ -124,6 +124,11 @@ nav a {
   line-height: normal;
 }
 
+/*Contact us form*/
+.contact-us fieldset {
+  border: none;
+}
+
 /*contact us form labels*/
 .contact-us label {
   display: flex;
@@ -135,11 +140,6 @@ nav a {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-}
-
-/*Contact us form*/
-.contact-us fieldset {
-  border: none;
 }
 
 /*contact us input boxes*/
@@ -155,6 +155,18 @@ nav a {
   border-left: none;
   border-right: none;
   border-color: grey;
+}
+
+.contact-us input::placeholder {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #071629;
+  font-family: SourceSansPro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 /*contact us button*/
