@@ -1,4 +1,7 @@
 # Atlas - Headphones
+
+![pugggyinsta2](https://github.com/ThatsVie/atlas-headphones/assets/143755961/59af385b-28b7-4548-a02b-a456c1a3a76a)
+
 This project is a responsive website for a fictional headphones company. The design follows the provided [Figma file](https://www.figma.com/design/FfnVADRC9xgI3yiZliTBYZ/Holberton-School---Headphone-company?node-id=0-362&t=bJCJPLuaAkLsxogd-0). The website includes a header with navigation links, a hero/banner section, "What we do..." section, "Our results" section, a contact form, and a footer. The design adapts to different screen sizes, including desktop, tablet, and mobile views.
 
 ## Tasks
@@ -59,9 +62,5 @@ In this task, we added a footer to the webpage. The footer contains a logo, soci
 Starlee Jiles - [Github](https://github.com/starles-barkley)
 
 Vie Paula - [Github](https://github.com/ThatsVie)
-
-![Screenshot 2024-06-18 154819](https://github.com/ThatsVie/atlas-headphones/assets/143755961/0f620ff7-5863-4943-8c37-eee174d37c3a)
-
-
 
 
