@@ -52,13 +52,13 @@ The HTML structure for the "Our Results" section includes a container for the se
 
 The CSS for the "Our Results" section ensures that the pentagon shapes maintain their form across different screen sizes. This is achieved using a combination of flexbox for layout and careful dimensioning of the result blocks.
 
-
-
 ### Task 4: Contact Us Section
 In this task, we added a "Contact Us" section to the webpage. This section includes a form where users can input their name, email, and a message. The form is designed to be responsive and adjusts its layout for various screen sizes.
 
 ### Task 5: Footer Section
 In this task, we added a footer to the webpage. The footer contains a logo, social media icons, and a copyright notice. It is designed to be responsive and adjusts its layout for various screen sizes.
+
+![Screenshot 2024-06-19 172106](https://github.com/ThatsVie/atlas-headphones/assets/143755961/1b442363-f934-404f-ac39-b64bcffe95c6)
 
 
 ## Authors
