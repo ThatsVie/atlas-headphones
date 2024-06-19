@@ -65,15 +65,28 @@ The CSS for the "Our Results" section ensures that the pentagon shapes maintain 
 
 ![contact pug](https://github.com/ThatsVie/atlas-headphones/assets/143755961/34a9b5d7-cfe5-408d-ab7d-2d3e1e9ac525)
 
-In this task, we added a "Contact Us" section to the webpage. This section includes a form where users can input their name, email, and a message. The form is designed to be responsive and adjusts its layout for various screen sizes.
+In this task, we added a "Contact Us" section to the webpage. This section includes a form where users can input their name, email, and a message. 
+**HTML Updates**
+
+The HTML structure for the "Contact Us" section includes a `<section>` element with a form inside it. The form has three input fields for "Name," "Email," and "Your message," each wrapped in a `<div>` with the class `form-group`. The input fields have placeholders for guidance, and there is a submit button labeled "CALL TO ACTION."
+
+**CSS Updates**
+
+The CSS for the "Contact Us" section centers its content and sets an appropriate height. The form layout is flexible and responsive, ensuring it is centered and evenly spaced. Input fields are styled for a clean look, and media queries adjust the layout for different screen sizes, maintaining a cohesive design across desktop, tablet, and mobile devices.
 
 ### Task 5: 
 
 ![footer pug](https://github.com/ThatsVie/atlas-headphones/assets/143755961/e1e1c8dd-bbbe-4e9f-8ab4-b7101662c4d8)
 
 
-In this task, we added a footer to the webpage. The footer contains a logo, social media icons, and a copyright notice. It is designed to be responsive and adjusts its layout for various screen sizes.
+In this task, we added a footer to the webpage. The footer contains a logo, social media icons, and a copyright notice. 
+**HTML Updates**
 
+The HTML structure for the "Footer" section includes a `<footer>` element with a container for the footer content. Inside this container, there are two main elements: a logo and social media icons. The logo is an image, and the social media icons use custom font icons. Below these elements, there is a paragraph for the copyright notice.
+
+**CSS Updates**
+
+The CSS for the "Footer" section ensures the footer content is centered and spaced appropriately. The layout is made responsive with media queries, adjusting the arrangement of the logo and social media icons for desktop, tablet, and mobile views. The footer text is styled to maintain consistency with the overall design, including font size, color, and opacity.
 
 ## Authors
 Starlee Jiles - [Github](https://github.com/starles-barkley)
