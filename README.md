@@ -26,6 +26,16 @@ Style the hero section with background image, text alignment, and spacing.
 
 Responsive Design to ensure the layout adapts to desktop, tablet, and mobile views
 
+**Desktop view**
+
+![header desktop](https://github.com/ThatsVie/atlas-headphones/assets/143755961/006b1f31-de45-4704-9658-966259fa8aab)
+
+**Tablet view**
+![Screenshot 2024-06-19 123142](https://github.com/ThatsVie/atlas-headphones/assets/143755961/7e2d36aa-c7cb-4634-8f96-907740defb4a)
+
+**Mobile view**
+
+
 ### Task 2: Create the "What We Do" Section
 
 In this task, we created the "What We do..." section, which highlights key features using custom font icons.
@@ -38,6 +48,16 @@ We structured the HTML to include a heading, a description, and four feature blo
 
 We updated the CSS to style the "What We do..." section, ensuring it is responsive across desktop, tablet, and mobile devices. The CSS includes styles for the section container, text blocks, and feature blocks, as well as media queries for responsiveness.
 
+**Desktop view**
+
+![what we do desktop](https://github.com/ThatsVie/atlas-headphones/assets/143755961/0d538151-9353-44f6-b548-388a83eee2ba)
+
+**Tablet view**
+
+![Screenshot 2024-06-19 123203](https://github.com/ThatsVie/atlas-headphones/assets/143755961/9f0bbcc0-564e-43d2-ae9e-ace6c94612a0)
+
+**Mobile View**
+
 ### Task 3: "Our Results" Section
 For this task, we created the "Our Results" section. The section showcases a background image and pentagon-shaped highlights for the metrics.
 
@@ -48,6 +68,19 @@ The HTML structure for the "Our Results" section includes a container for the se
 **CSS Updates**
 
 The CSS for the "Our Results" section ensures that the pentagon shapes maintain their form across different screen sizes. This is achieved using a combination of flexbox for layout and careful dimensioning of the result blocks.
+
+**Desktop view**
+
+![our results desktop](https://github.com/ThatsVie/atlas-headphones/assets/143755961/c8a0a2e3-e496-4123-b506-0a18ed814061)
+
+
+**Tablet view**
+
+![Screenshot 2024-06-19 123220](https://github.com/ThatsVie/atlas-headphones/assets/143755961/a8e5f828-7689-4847-a113-8e901d240023)
+
+
+**Mobile View**
+
 
 ### Task 4: Contact Us Section
 In this task, we added a "Contact Us" section to the webpage. This section includes a form where users can input their name, email, and a message. The form is designed to be responsive and adjusts its layout for various screen sizes.
