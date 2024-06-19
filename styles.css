@@ -551,7 +551,7 @@ nav a {
 }
 
 /* Form labels */
-.form-group label {
+ input::placeholder {
   margin-bottom: 8px;
   color: #071629;
   font-size: var(--font-size-small);
