@@ -28,6 +28,10 @@ html {
   font-family: var(--font-family);
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+
 a {
   text-decoration: none;
 }
@@ -505,82 +509,86 @@ nav a {
   }
 }
 
-/*---Contact Us Section Styling---*/
-.contact-us {
-  padding: 40px;
+/* Contact Us Section */
+
+
+/* Container for the contact section */
+.contact-section {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-/*contact us title*/
-.contact-us span {
+  height: 80vh;
   padding: 20px;
-  color: #071629;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-family: var(--font-family);;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
 }
 
-/*Contact us form*/
-.contact-us fieldset {
-  border: none;
-}
-
-/*contact us form labels*/
-.contact-us label {
+/* Contact form styling */
+.contact-form {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  color: #071629;
-  font-family: var(--font-family);;
-  font-size: var(--font-size-small);
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-/*contact us input boxes*/
-.contact-us input {
-  padding: 20px;
-  display: flex;
-  width: 335px;
+  flex-shrink: 0;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  gap: 10px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-color: grey;
-}
-
-/*contact us placeholder text in input boxes*/
-.contact-us input::placeholder {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  color: #071629;
+  justify-content: space-around;
+  height: 80%;
+  width: 400px;
   font-family: var(--font-family);
-  font-size: var(--font-size-small);
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+  overflow: hidden;
 }
 
-/*contact us button*/
-.contact-us .button {
-  padding: 20px;
+/* Form title */
+.contact-form h2 {
+  font-size: var(--font-size-large);
+  color: #071629;
+  margin-bottom: 20px;
+}
+
+/* Form group styling */
+.form-group {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid rgba(7, 22, 41, 0.1745);
 }
 
+/* Form labels */
+.form-group label {
+  margin-bottom: 8px;
+  color: #071629;
+  font-size: var(--font-size-small);
+  font-weight: 600;
+}
+
+/* Form input and textarea styling */
+.form-input {
+  height: 30px;
+  width: 100%;
+  border: none;
+  padding: 0px;
+}
+
+
+/* Button hover state */
+.contact-form button:hover {
+  opacity: var(--button-hover-opacity);
+}
+
+/* Media Queries for responsiveness */
+
+/* Tablet and mobile devices (screen width less than 768px) */
+@media screen and (max-width: 768px) {
+  .contact-form {
+    padding: 20px;
+  }
+
+}
+
+/* Mobile devices (screen width 480px or less) */
+@media screen and (max-width: 480px) {
+  .contact-form {
+    padding: 15px;
+  }
+}
+ 
 
 /* Footer Section */
 
@@ -589,9 +597,12 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px; 
+  padding: 20px;
   background: #071629;
+  width: 100%;
+  height: 249px;
 }
+  
 
 /* Container for the footer content */
 .footer-container {
@@ -600,6 +611,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  height: 60%;
 }
 
 /* Content within the footer (logo and social icons) */
@@ -608,6 +620,7 @@ footer {
   display: flex;
   width: 100%;
   justify-content: space-around;
+  align-items: center;
 }
 
 /* Logo styling in the footer */
@@ -620,13 +633,14 @@ footer {
 /* Social icons container */
 .footer-social-icons {
   display: flex;
-  gap: 20px;
-
+  flex-direction: row;
+  justify-content: space-between;
+  width: 130px;
 }
 
 /* Social icon styles */
 .social-icon {
-  font-size: 25px;
+  font-size: var(--font-size-medium);
   color: var(--color-white);
 }
 
@@ -638,20 +652,41 @@ footer {
 /* Footer text styling */
 footer p {
   color: var(--color-white);
-  opacity: 0.9;
+  opacity: 0.3517;
   font-family: var(--font-family);
   font-size: var(--font-size-xsmall);
   text-align: center;
+  height: 20px;
 }
 
 /* Media Queries for responsiveness */
 
-/* Tablet and mobile devices (screen width less than 768px) */
+/* Tablet devices (screen width less than 768px and greater than 480px) */
 @media screen and (max-width: 768px) {
-
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-logo img {
+    margin-bottom: 20px;
+  }
+  .footer-social-icons {
+    justify-content: center;
+  }
 }
 
 /* Mobile devices (screen width 480px or less) */
 @media screen and (max-width: 480px) {
- 
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-logo img {
+    margin-bottom: 20px;
+  }
+  .footer-social-icons {
+    flex-direction: row;
+    justify-content: center;
+  }
 }

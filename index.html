@@ -103,56 +103,48 @@
     </section>
 
     <!-- Contact Us Section-->
-    <section class="contact-us">
-      <form action="#" method="post">
-        <fieldset>
-          <span>Contact us</span>
-          <div>
-            <!-- <label for="your-name">Name</label>-->
-            <div class="form-field">
-              <span class="form-field-container">
-                <input placeholder="Name" type="text" name="your-first-name" id="your-first-name" pattern="[A-Za-zÀ-ž\s]{3,}" maxlength="35" autocomplete="on" accesskey="f" required="true"></input>
-              </span>
-            </div>
-          </div>
-          <div class="form-group col-2-3">
-            <!-- <label for="your-email">Email</label> -->
-            <div class="form-field">
-              <span class="form-field-container">
-                <input placeholder="Email" type="email" name="your-email" id="your-email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" maxlength="55" autocomplete="on" accesskey="e" required="true"></input>
-              </span>
-            </div>
-          </div>
-          <div>
-            <!--<label for="your-comment">Your message</label>-->
-            <div class="form-field">
-              <span class="form-field-container">
-                <input placeholder="Your message" name="your-comment" id="your-comment" minlength="10" accesskey="c" required="true" required cols="30"></input>
-              </span>
-            </div>
-          </div>
-          <div class="button">
-            <button>CALL TO ACTION</button>
-          </div>
+
+    <section class="contact-section">
+      <form action="" class="contact-form">
+        <h2>Contact Us</h2>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" class="form-input" placeholder="" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" class="form-input" placeholder="" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Your Message</label>
+         <input type="message" class="form-input" placeholder="" required>
+        </div>
+
+        <button type="submit">CALL TO ACTION</button>
+      </form>
     </section>
 
-    <!-- Footer Section -->
-    <footer>
-      <div class="footer-container">
-        <div class="footer-content">
-          <div class="footer-logo">
-            <img src="images/logo_headphones.png" alt="Headphones Company Logo">
-          </div>
-          <div class="footer-social-icons">
-            <a href="#" class="holberton_school-icon-ic_facebook social-icon"></a>
-            <a href="#" class="holberton_school-icon-ic_twitter social-icon"></a>
-            <a href="#" class="holberton_school-icon-ic_instagram social-icon"></a>
-          </div>
-        </div>
-        <p>&copy;headphones 2020</p>
-      </div>
-    </footer>
   </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="images/logo_headphones.png" alt="Headphones Company Logo">
+        </div>
+        
+        <div class="footer-social-icons">
+          <a href="#" class="holberton_school-icon-ic_facebook social-icon"></a>
+          <a href="#" class="holberton_school-icon-ic_twitter social-icon"></a>
+          <a href="#" class="holberton_school-icon-ic_instagram social-icon"></a>
+        </div>
+      </div>
+      <p>&copy;headphones 2020</p>
+    </div>
+  </footer>
 
 </body>
 
