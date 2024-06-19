@@ -6,7 +6,9 @@ This project is a responsive website for a fictional headphones company. The des
 
 
 ## Tasks
-### Task 1: Header and Hero Section
+### Task 1: 
+![Screenshot 2024-06-19 173649](https://github.com/ThatsVie/atlas-headphones/assets/143755961/44c2fd36-8102-4fcc-9d2d-b9fe4584c574)
+
 For the first task, we created the header and hero section of the webpage.
 
 **HTML**
@@ -41,7 +43,8 @@ We structured the HTML to include a heading, a description, and four feature blo
 We updated the CSS to style the "What We do..." section, ensuring it is responsive across desktop, tablet, and mobile devices. The CSS includes styles for the section container, text blocks, and feature blocks, as well as media queries for responsiveness.
 
 
-### Task 3: "Our Results" Section
+### Task 3:
+![our results pug](https://github.com/ThatsVie/atlas-headphones/assets/143755961/f620327a-aa93-470b-95bf-03c469a5deea)
 For this task, we created the "Our Results" section. The section showcases a background image and pentagon-shaped highlights for the metrics.
 
 **HTML Updates**
@@ -52,7 +55,9 @@ The HTML structure for the "Our Results" section includes a container for the se
 
 The CSS for the "Our Results" section ensures that the pentagon shapes maintain their form across different screen sizes. This is achieved using a combination of flexbox for layout and careful dimensioning of the result blocks.
 
-### Task 4: Contact Us Section
+### Task 4:
+![contact pug](https://github.com/ThatsVie/atlas-headphones/assets/143755961/34a9b5d7-cfe5-408d-ab7d-2d3e1e9ac525)
+
 In this task, we added a "Contact Us" section to the webpage. This section includes a form where users can input their name, email, and a message. The form is designed to be responsive and adjusts its layout for various screen sizes.
 
 ### Task 5: Footer Section
