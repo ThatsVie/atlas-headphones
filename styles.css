@@ -617,7 +617,7 @@ footer {
 
 /* Content within the footer (logo and social icons) */
 .footer-content {
-  margin: 80px;
+  margin: 65px;
   display: flex;
   width: 100%;
   justify-content: space-around;
@@ -657,7 +657,7 @@ footer p {
   font-size: var(--font-size-xsmall);
   text-align: center;
   opacity: 0.3517;
-  
+  margin-top: 10px;
 }
 
 /* Media Queries for responsiveness */
