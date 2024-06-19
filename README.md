@@ -14,9 +14,9 @@ For the first task, we created the header and hero section of the webpage.
 
 **HTML**
 
-Header: Includes a logo and navigation links ("What We Do", "Our Results", "Contact Us").
+The Header includes a logo and navigation links ("What We Do", "Our Results", "Contact Us").
 
-Hero Section: Contains a headline, subheadline, call-to-action button, and a descriptive paragraph.
+The Hero section contains a headline, subheadline, call-to-action button, and a descriptive paragraph.
 
 **CSS**
 
@@ -55,7 +55,7 @@ For this task, we created the "Our Results" section. The section showcases a bac
 
 **HTML Updates**
 
-The HTML structure for the "Our Results" section includes a container for the section's text and a container for the result blocks. Each result block is styled to maintain a consistent pentagon shape across various screen sizes.
+The HTML structure for the "Our Results" section includes a container for the section's text and a container for the result blocks.
 
 **CSS Updates**
 
@@ -80,6 +80,7 @@ The CSS for the "Contact Us" section centers its content and sets an appropriate
 
 
 In this task, we added a footer to the webpage. The footer contains a logo, social media icons, and a copyright notice. 
+
 **HTML Updates**
 
 The HTML structure for the "Footer" section includes a `<footer>` element with a container for the footer content. Inside this container, there are two main elements: a logo and social media icons. The logo is an image, and the social media icons use custom font icons. Below these elements, there is a paragraph for the copyright notice.
