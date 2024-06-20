@@ -66,6 +66,7 @@ The CSS for the "Our Results" section ensures that the pentagon shapes maintain 
 ![contact pug](https://github.com/ThatsVie/atlas-headphones/assets/143755961/34a9b5d7-cfe5-408d-ab7d-2d3e1e9ac525)
 
 In this task, we added a "Contact Us" section to the webpage. This section includes a form where users can input their name, email, and a message. 
+
 **HTML Updates**
 
 The HTML structure for the "Contact Us" section includes a `<section>` element with a form inside it. The form has three input fields for "Name," "Email," and "Your message," each wrapped in a `<div>` with the class `form-group`. The input fields have placeholders for guidance, and there is a submit button labeled "CALL TO ACTION."
